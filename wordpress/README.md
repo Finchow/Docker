@@ -9,6 +9,9 @@ the port number can be changed to any port you have access to
 
 the url for the website should be: http://"your_local_ip"/
 
+to get your local ip type "ip addr" in the terminal
+
 and if you changed the port append: http://"your_local_ip"/:"portnumber"
 (if you kept the port at 80:80 you do not need this) 
- 
+
+finally run "docker-compose up -d" in the directory where the "docker-compose.yml" file is located to build the image
